@@ -1,0 +1,14 @@
+*.font-inc {
+  font-family: "Inconsolata", monospace !important;
+}
+*.font-jet {
+  font-family: "JetBrains Mono", monospace !important;
+}
+
+*.font-rob {
+  font-family: "Roboto Mono", monospace !important;
+}
+
+*.font-major {
+  font-family: "Major Mono Display", monospace !important;
+}
