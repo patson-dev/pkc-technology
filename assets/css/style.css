@@ -1,0 +1,66 @@
+/*=== 
+
+FONTS USED  
+
+font-family: 'Inconsolata', monospace;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Roboto Mono', monospace;
+
+===*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Major+Mono+Display&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html,
+body {
+  font-family: 'Inconsolata', monospace;
+}
+
+.font-major {
+  font-family: 'Major Mono Display', monospace !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 900;
+}
+
+#home {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/home.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#img-a {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/img-a.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#img-b {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/img-b.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
